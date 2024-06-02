@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vw;
+    background: url("https://img.freepik.com/free-photo/hourglass-with-sand-middle-word-sand-it_123827-23414.jpg?size=626&ext=jpg");
+    position: relative;
+    height: 100vh; 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+   
+}
+.timer
+{
+    font-size: 5rem;
+
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+   gap: 100px;
+    
+}
+.time{
+    padding: 25px;
+    background-color: rgb(159, 33, 54);
+    text-align: center;
+    border-radius: 40%;
+    cursor: pointer;
+    width: 100px;
+    border: none;
+}
+
+.time:active{
+    transform: translateY(5px) scale(0.9);
+    transition: transform 0.2s linear ;
+}
